@@ -59,7 +59,39 @@ footer{
     background-color: #496A40;
     padding: 80px;
 }
+#all-images{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#arctic-image{
+    height: 500px;
+    width: 33.3%;
+    background: url('../images/pexels-photo-2574983.jpeg') no-repeat center center;
+}
+#rainforest-image{
+    height: 500px;
+    width: 33.3%;
+    background: url('../images/pexels-almoatasem-alaa-el-din-1139429.jpg') no-repeat center center;
+}
 
+#african-plains-image{
+    height: 500px;
+    width: 33.3%;
+    background: url('../images/pexels-hendrik-cornelissen-2862070.jpg') no-repeat center center;
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 footer>h2{
     font-size: 250%;
     width:250px;
