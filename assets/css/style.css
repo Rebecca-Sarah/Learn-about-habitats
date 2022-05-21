@@ -55,10 +55,7 @@ h1, h2{
     color: #1b2419;
 }
 
-footer{
-    background-color: #496A40;
-    padding: 80px;
-}
+
 #all-images{
     height: 500px;
     width: 100%;
@@ -92,6 +89,12 @@ footer{
     clear: both;
     display: table;
 }
+
+footer{
+    background-color: #496A40;
+    padding: 60px;
+}
+
 footer>h2{
     font-size: 250%;
     width:250px;
