@@ -11,7 +11,7 @@ body{
 
 header{
     background-color: #496A40;
-    padding: 50px;
+    padding: 80px;
 }
 
 h1, h2{
@@ -31,7 +31,40 @@ h1, h2{
     text-align: center;
 }
 
-#list{
-    font-size: 100%;
+#menu{
+    font-size: 120%;
     letter-spacing: 4px;
+    padding: 10px;
+    top: 13%;
+}
+
+#menu li{
+    clear: both;
+    list-style-type: none;
+    margin-right:30px;
+    float: left;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#menu a:hover{
+    background-color: #ffffff;
+    color: #1b2419;
+}
+
+footer{
+    background-color: #496A40;
+    padding: 80px;
+}
+
+footer>h2{
+    font-size: 250%;
+    width:250px;
+    height:200px;
+    bottom: 13%;
+    position: fixed;
+    text-align: center;
 }
