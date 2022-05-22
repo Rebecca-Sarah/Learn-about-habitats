@@ -24,7 +24,7 @@ h1, h2{
     width:250px;
     height:200px;
     position: fixed;
-    top: 13%;
+    top: 15%;
     left: 50%;
     margin-top: -100px;
     margin-left: -100px;
@@ -90,16 +90,17 @@ h1, h2{
     display: table;
 }
 
-footer{
-    background-color: #496A40;
-    padding: 60px;
+#about h2{
+    color: #1b2419;
+    font-weight: bold;
+    font-size: 175%;
 }
 
-footer>h2{
-    font-size: 250%;
-    width:250px;
-    height:200px;
-    bottom: 13%;
-    position: fixed;
-    text-align: center;
+#about{
+    color: #1b2419;
+    font-size: 125%;
+}
+footer{
+    background-color: #496A40;
+    height: 150px;
 }
