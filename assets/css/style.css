@@ -96,34 +96,56 @@ h1, h2{
     display: table;
 }
 
+#cover-text, #cover-text h2{
+color: #ffffff;
+}
+
+#cover-text{
+    font-size: 50%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    width: 200px;
+    height: 200px;
+
+    padding: 30px;
+    padding-left: 10px;
+
+    background-color: #1b2419;
+    bottom: 40px;
+    right: 300px;
+
+    position: absolute;
+}
+
 #information{
-    height: 500px;
-    width: 25%;
+    height: 400px;
+    width: 20%;
     color: #1b2419;
     border: 2px solid #496A40;
     border-radius: 50%;
-    margin: 10px;
-    padding: 5px;
     position: relative;
 }
 #cheetah-image{
-    height: 500px;
-    width: 25%;
+    height: 400px;
+    width: 20%;
     background: url("../images/pexels-photo-10399172.jpeg") no-repeat center center;
     border: 2px solid #496A40;
     border-radius: 50%;
-    padding: 5px;
 }
 
 #protect{
-    height: 500px;
-    width: 25%;
+    height: 400px;
+    width: 20%;
     color: #1b2419;
     border: 2px solid #496A40;
     border-radius: 50%;
-    float: right;
-    margin: 10px;
-    padding: 5px;
+}
+
+.about{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .footer{
