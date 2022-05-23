@@ -63,25 +63,31 @@ h1, h2{
     position: relative;
 }
 #arctic-image{
-    height: 500px;
-    width: 33.3%;
+    height: 400px;
+    width: 25%;
     background: url('../images/pexels-photo-2574983.jpeg') no-repeat center center;
 }
 #rainforest-image{
-    height: 500px;
-    width: 33.3%;
-    background: url('../images/pexels-almoatasem-alaa-el-din-1139429.jpg') no-repeat center center;
+    height: 400px;
+    width: 25%;
+    background: url('../images/pexels-photo-2739664.jpeg') no-repeat center center;
 }
 
 #african-plains-image{
-    height: 500px;
-    width: 33.3%;
-    background: url('../images/pexels-hendrik-cornelissen-2862070.jpg') no-repeat center center;
+    height: 400px;
+    width: 25%;
+    background: url('../images/elephant-herd-of-elephants-african-bush-elephant-africa-59989.jpeg') no-repeat center center;
+}
+
+#kelp-image{
+    height: 400px;
+    width: 25%;
+    background: url('../images/pexels-photo-11816641.jpeg') no-repeat center center;
 }
 
 .column{
     float: left;
-    width: 33.3%;
+    width: 25%;
 }
 
 .row::after{
@@ -90,22 +96,44 @@ h1, h2{
     display: table;
 }
 
-#about h2{
+#information{
+    height: 500px;
+    width: 25%;
     color: #1b2419;
-    font-weight: bold;
-    font-size: 175%;
+    border: 2px solid #496A40;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+}
+#cheetah-image{
+    height: 500px;
+    width: 25%;
+    background: url("../images/pexels-photo-10399172.jpeg") no-repeat center center;
+    border: 2px solid #496A40;
+    border-radius: 50%;
+    padding: 5px;
 }
 
-#about{
+#protect{
+    height: 500px;
+    width: 25%;
     color: #1b2419;
-    font-size: 125%;
+    border: 2px solid #496A40;
+    border-radius: 50%;
+    float: right;
+    margin: 10px;
+    padding: 5px;
 }
-footer{
-    background-color: #496A40;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+
+.footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #496A40;
     height: 150px;
+
 }
 .social-networks{
     text-align: center;
@@ -116,8 +144,11 @@ footer{
 }
 
 .social-networks i{
-    font-size: 200%;
+    font-size: 165%;
     margin: 5%;
     padding: 5%;
     color: #1b2419;
+}
+.footer > h2 {
+    text-align: center;
 }
