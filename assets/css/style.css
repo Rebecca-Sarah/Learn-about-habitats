@@ -127,6 +127,17 @@ color: #ffffff;
     border: 2px solid #496A40;
     position: relative;
 }
+
+#information h2{
+    color: #1b2419;
+    font-size: 30px;
+    text-align: center;
+}
+#information p{
+    color: #1b2419;
+    font-size: 20px;
+}
+
 #cheetah-image{
     height: 400px;
     width: 20%;
@@ -140,6 +151,17 @@ color: #ffffff;
     width: 20%;
     color: #1b2419;
     border: 2px solid #496A40;
+}
+
+#protect h2{
+    color: #1b2419;
+    font-size: 30px;
+    text-align: center;
+}
+
+#protect p{
+    color: #1b2419;
+    font-size: 20px;
 }
 
 .about{
@@ -220,11 +242,7 @@ h2{
     border: 2px solid #1b2419;
 }
 
-.options{
-    color: #ffffff;
-}
-
-.help{
+.options, .help{
     color: #ffffff;
 }
 
