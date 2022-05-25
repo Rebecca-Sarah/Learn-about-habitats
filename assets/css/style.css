@@ -120,54 +120,56 @@ color: #ffffff;
 }
 
 /*About section*/
-#information{
+.info-boxes{
     height: 400px;
     width: 20%;
     color: #1b2419;
     border: 2px solid #496A40;
     position: relative;
+    float: left;
+    width: 25%;
 }
 
-#information h2{
+.info-boxes h2{
     color: #1b2419;
     font-size: 30px;
     text-align: center;
 }
-#information p{
+.info-boxes p{
     color: #1b2419;
     font-size: 20px;
 }
 
-#cheetah-image{
-    height: 400px;
-    width: 20%;
-    background: url("../images/pexels-photo-10399172.jpeg") no-repeat center center;
-    border: 2px solid #496A40;
-    border-radius: 50%;
+#click-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #protect{
-    height: 400px;
-    width: 20%;
-    color: #1b2419;
-    border: 2px solid #496A40;
-}
-
-#protect h2{
-    color: #1b2419;
-    font-size: 30px;
-    text-align: center;
-}
-
-#protect p{
-    color: #1b2419;
-    font-size: 20px;
-}
-
-.about{
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Habitats page*/
+#rainforest{
+    color: #1b2419;
+    border: 2px solid #1b2419;
+    background-color: #799276;
+    width: 90%;
+}
+#africa{
+    color: #1b2419;
+    border: 2px solid #1b2419;
+    background-color: #799276;
+    width: 90%;
 }
 
 /*Contact info page*/
