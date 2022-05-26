@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:wght@300&family=Oswald:wght@300&display=swap');
+html{
+    height: 100%;
+    margin: auto;
+    overflow: scroll;
+}
 *{
     padding: 0;
     margin: 0;
@@ -159,16 +164,34 @@ color: #ffffff;
 }
 
 /*Habitats page*/
+.facts{
+    margin-left: 20px;
+    margin-top: 5%;
+    padding: 15px;
+}
 #rainforest{
     color: #1b2419;
     border: 2px solid #1b2419;
-    background-color: #799276;
+    background-color: #ffffff;
     width: 90%;
 }
 #africa{
+    color: #ffffff;
+    border: 2px solid #496A40;
+    background-color: #1b2419;
+    width: 90%;
+}
+
+#arctic{
     color: #1b2419;
     border: 2px solid #1b2419;
-    background-color: #799276;
+    background-color: #ffffff;
+    width: 90%;
+}
+#kelp{
+    color: #ffffff;
+    border: 2px solid #496A40;
+    background-color: #1b2419;
     width: 90%;
 }
 
