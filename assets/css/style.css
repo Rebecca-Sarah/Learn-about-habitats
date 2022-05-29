@@ -43,7 +43,7 @@ h2 {
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #menu li {
@@ -51,6 +51,7 @@ h2 {
     list-style-type: none;
     margin-right: 30px;
     float: left;
+    padding: 5px;
 }
 
 #menu a {
@@ -293,27 +294,65 @@ h2 {
 
 /*Media Queries*/
 
-/*For larger to medium screens size from 1200px wide and down */
+/*For larger to medium screens size from 1000px wide and down */
 @media screen and (max-width: 1200px) {
-
-    #left,
-    #right {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    .column {
+    #arctic-image {
+        height: 200px;
         width: 50%;
     }
 
-    .facts {
+    #rainforest-image {
+        height: 200px;
+        width: 50%;
+    }
+
+    #african-plains-image {
+        height: 200px;
+        width: 50%;
+    }
+
+    #kelp-image {
+        height: 200px;
+        width: 50%;
+    }
+
+}
+
+/*For small screens size from 800px wide and down */
+@media screen and (max-width: 1200px) {
+    #logo {
         align-items: center;
+    }
+
+    #menu li {
+        padding: 0%;
+    }
+
+    #arctic-image {
+        height: 100px;
+        width: 100%;
+    }
+
+    #rainforest-image {
+        height: 100px;
+        width: 100%;
+    }
+
+    #african-plains-image {
+        height: 100px;
+        width: 100%;
+    }
+
+    #kelp-image {
+        height: 100px;
+        width: 100%;
+    }
+
+    .info-box-1 {
+        height: auto;
+    }
+
+    .info-box-2 {
+        height: auto;
     }
 }
