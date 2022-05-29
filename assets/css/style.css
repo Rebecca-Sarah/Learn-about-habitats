@@ -21,6 +21,7 @@ body {
 header {
     background-color: var(--sage);
     padding: 80px;
+    height: 75px;
 }
 
 h1,
@@ -33,18 +34,16 @@ h2 {
     font-size: 275%;
     width: 250px;
     height: 200px;
-    position: fixed;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -100px;
+    margin-left: 35%;
+    margin-top: -50px;
     text-align: center;
+    position: absolute;
 }
 
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
-    padding: 10px;
-    top: 13%;
+    padding: 5px;
 }
 
 #menu li {
@@ -109,59 +108,39 @@ h2 {
 }
 
 /*About section*/
-.info-boxes {
-    height: 400px;
-    width: 20%;
+.info-box-1 {
+    height: 250px;
+    width: 90%;
     color: var(--dark-green);
-    border: 2px solid var(--sage);
-    position: relative;
-    float: left;
-    width: 25%;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    background-color: var(--white);
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 2%;
 }
 
-.info-boxes h2 {
-    color: (--dark-green);
-    font-size: 20px;
-    text-align: center;
-}
-
-.info-boxes p {
+.info-box-1 h2 {
     color: var(--dark-green);
-    font-size: 15px;
+}
+
+.info-box-2 {
+    height: 250px;
+    width: 90%;
+    background-color: var(--dark-green);
+    color: var(--white);
+    margin-left: 3%;
+    padding: 2%;
+}
+
+.heading {
+    color: var(--dark-green);
     text-align: center;
-}
-
-#left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 7%;
-    margin-right: 5%;
-}
-
-#right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-#center h2 {
-    font-size: 30px;
-}
-
-.left::after {
-    content: "";
-    clear: both;
-    display: table;
+    font-size: 35px;
+    margin-left: 3%;
 }
 
 /*Habitats page*/
 .facts {
-    margin-left: 20px;
+    margin-left: 10%;
     margin-top: 5%;
     padding: 15px;
     margin-bottom: 10%;
@@ -332,5 +311,9 @@ h2 {
 
     .column {
         width: 50%;
+    }
+
+    .facts {
+        align-items: center;
     }
 }
