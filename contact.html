@@ -36,12 +36,45 @@
     </div>
 
 
+    <div id="form-container">
+        <div id="bg"></div>
+        <div id="form-section">
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <div class="form-group">
+                    <label for="name" class="field"> Name </label>
+                    <input type="text" id="name" required>
+
+                    <label for="email" class="field"> Email </label>
+                    <input type="email" id="email" required>
+
+                    <label for="phone-number" class="field"> Phone number </label>
+                    <input type="text" id="phone-number" required>
+
+                    <h2 class="help"> How would you like to help?</h2>
+                    <label for="volunteer" class="help">Volunteer</label>
+                    <input type="radio" id="volunteer" name="get-involved" value="volunteer">
+
+                    <label for="donate" class="help">Donate</label>
+                    <input type="radio" id="donate" name="get-involved" value="donate">
+
+                    <label for="both" class="help">Both</label>
+                    <input type="checkbox" id="both" name="get-involved" value="both">
+
+                    <div class="text">
+                        <textarea id="message" placeholder="Send us a message!"></textarea>
+                    </div>
+
+                    <input class="join-button" type="submit" value="Get involved">
+                </div>
+            </form>
+        </div>
+    </div>
 
 
 
     <footer class="footer">
-        <h2>Get in touch</h2>
         <ul class="social-networks">
+            <h2>Get in touch</h2>
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
