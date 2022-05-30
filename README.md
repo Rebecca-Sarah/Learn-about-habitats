@@ -2,137 +2,108 @@
 
 Protect Our Habitats is an educational website that is targeted towards people who want to learn more about the world we live in and how the way we live our lifes can affect nature, the climate and the planet. Within the website people will read more about what a habitat and an eco-system are as well as learning about different habitats that can be found around the world and what you can do to help protect and conserve the many living things we share Earth with.  
 
-You can access the live site here - 
+![image](https://user-images.githubusercontent.com/102615645/171062997-3ad72136-03c9-4cd9-9a62-04811ee8ef0b.png)
+## User Experience
+### Site Structure 
+Protect Our Habitats is a three page website with the pages about, habitats and contact us for the user to navigate around. The user will be brought straight onto the about page and will see links to the other two pages in the navigation bar that is in the header. 
+
+### Design Choices
+- Font
+The main font that was chosen was Nunito which was used throughout all three pages of the website with sans-serif as a second choice. Keeping the same font for all the text keeps the theme of continuity which is bettter for the users experience when visiting the site. 
+Most of the text used is the same weight to continue the pages blending well together, with the headings for the paragraphs being a larger size to ensure the user knows what the main objective for the paragraph is. 
+
+- Colour Scheme 
+The colour scheme chosen to be was based off using green and white tones, using a dark green, a sage colour and white. These colours are meant to give off the feel of being outside with nature to bring the user closer to Protect Our Habitats. 
+
+![image](https://user-images.githubusercontent.com/102615645/171053841-4480c215-fe8f-4111-b80a-d6f8b3a321d2.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+There are many different features used throughout Protect Our Habitats which help the user to navigate around the website easily allowing them to learn more about the habitats around the world with enjoyment. 
 
 ### Existing Features
 
-- __Navigation Bar__
+#### Navigation Menu
+- Header
+  - Featured on all three pages, located at the top of every page is including three links to the different pages; about, habitats and contact us, allowing easy navigation. 
+  - In the middle of each page is also the Logo with the websites name at the top. 
+- Photographs 
+  - Under the heading bar on each page are four different photographs of four different habitats found around the world. This gives the user an opportunity to see the different habitats that are written about on the page straight away so they know what the website is about quickly and effectivly.  
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+- About
+  - The About page is broken into two sections with two different paragraphs with a question as a heading which allows the user to effectively see what the paragraph is about. The two sections are clearly split, one has a white background and the other a dark green to allow the user an easy reading experience as well as breaking the page up nicely. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
-
-- __The landing page image__
-
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-
-- __Club Ethos Section__
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Habitats 
+  - Habitats has four seperate elements within the page that outline and detail what four different habitats are and how they can be protected. They are split like the About page with the first element having a white background and green writing, the second having a green background with white writing with the last two following the pattern. This keep the website flowing throughout all pages and makes for a better user experience. 
+  - Two videos were added to this page within the boxes for the African Savanna and the Arctic which allows users to listen to more information about those habitats as well as reading what is written above. The videos do not automatically play to ensure the user experience is relaxing and can play the videos when they are ready. 
+- Contact Us
+  - A form is situated in the middle of the page with two different sides, on the left there is a picture which draws the user in to the form which shows a forest that links into the theme of the website and the colours used throughout the Protect Our Habitats website.
+  - The border around the form has a shadow to make it look more stark against the white background making the form elements stand out a lot more. 
+  - On the right hand side of the form are different form elements for the user to fill out, the required aspects of the form are the name, email and phone number boxes to ensure they can get in contact. The other elements are additional feedback boxes, one asking how they would like to help giving three options; donate, volunteer or both and the other element is a textarea box which allows the user to leave a comment. This creates a closer bond for the user as it makes them feel they are having a say and an impact on the cause of the website, Protect Our Habitats. 
+- Footer
+  - In the footer is the heading to get in touch with four different icons showing the four different social media platforms for the users to use to find out more about the website and how they could help. The icons are coloured a dark green to show a contrast against the white to ensure they are visable making them easy to see. The icons open the social media platforms in a different tab so the user can stay on the website which can also contribute to a positive user experience. 
 
 ### Features Left to Implement
 
-- Another feature idea
+- Current Projects 
+  - This section could be about what current projects are happening around the world to show the aid going into ensure habitats and ecosystems are being looked after. Showing updates on what is happening, showing before and after pictures and allowing the user to get a feel for how important it is and the impact it will have. 
+- Donate through the website 
+  - Having an option on the form for users and visitors of Protect Our Habitats for when they are feeling inspired to help. 
+- Volunteers 
+  -  A page on meet our volunteers to allow users to get a more personal experience from Protect Our Habitats and who the faces behind it are. Building a more meaningful relationship, which could possibly lead to a better user experience. 
+## Technologies Used
+- HTML5 
+  - Provided the structure and the content for the website. 
+- CSS3 
+  - Provided the styling for the website. 
+- Balsamiq 
+  - Provided the initial design for the website.
+- Gitpod
+  - Used to create the website. 
+- GitHub
+  - Used to host and deploy the website.
+- GitBash
+  - Used for the terminal to push changes to teh GitHub respitory. 
 
 ## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
 ### Validator Testing 
-
-- HTML
+- Protect Our Habitats 
+#### HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+#### CSS
+- No errors were found when passing through the official
+![image](https://user-images.githubusercontent.com/102615645/171067434-86f7e601-6d1c-4b91-b2b4-5b68f04925b8.png) 
 
+#### Lighthouse Testing 
+
+#### Manual Testing 
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+To get the site live, the steps were:
+- Deploy the site to GitHub pages.
+- Once in the GitHub repository, navigate to the Settings tab.
+- Next go to the Pages tab which can be found on the menu on the left hand side under Code and Automation. 
+- Go to the drop down menu under the heading, Source, and change the option from none to main then click save. 
+- After that will give you a link at the top of the page to where the site is published at.
+- Finally, click on the link and open the site. 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+You can access the live site here - https://rebecca-sarah.github.io/Learn-about-habitats/index.html 
 
 ## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for the About page were taken from National Geographic, Habitat article, The School Run, What is a Habitat article.
+- The text for the Habitats page were taken from National Geographic, Arctic article, Earth Reminder, Rainforest Ecosytem article.
+- The icons in the footer and header were taken from [Font Awesome](https://fontawesome.com)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- The images for the website were taken from [Pexels](https://pexels.com)
+- The video about the African Savanna was taken from [Catherine Brookes, Life on the African Savanna](https://www.youtube.com)
+- The video about the Arctic was taken from [National Geographic, Arctic/Exploring Oceans](https://www.youtube.com) 
+## Acknowledgments
+This website has been completed as part of the Full Stack Software Developer Diploma Project with COde Institute. Creating this website has taught me a lot and grown my confidence massively. The people I would like to thank for their support throughout this project is my mentor, Jack Wachira, my educator, Luke Walters, the community on Slack and Code Institute. 
