@@ -399,4 +399,9 @@ input {
         margin-left: 30%;
         margin-top: 20%;
     }
+
+    .video {
+        width: 200px;
+        height: 150px;
+    }
 }
