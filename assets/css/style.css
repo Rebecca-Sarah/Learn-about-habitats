@@ -193,10 +193,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-.video {
-    margin-left: 35%;
-}
-
 /*Contact info page*/
 #form-container {
     width: 70%;
@@ -395,6 +391,7 @@ input {
         font-size: 250%;
         float: left;
         margin-left: 0;
+        height: 100px;
     }
 
     #menu {
