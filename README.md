@@ -67,20 +67,69 @@ There are many different features used throughout Protect Our Habitats which hel
 
 ## Testing 
 ### Validator Testing 
-- Protect Our Habitats 
+- Protect Our Habitats has been tested and validated through the W3C HTML Validator, the W3C CSS Validator and the WAVE accessibility validator. 1 minor error and 1 warning was found on the index.html when it was tested on the html validator but were fixed immediately. 
 #### HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official 
+  [W3C validator]
+  ![image](https://user-images.githubusercontent.com/102615645/171068409-014f5036-c7f2-4f56-9661-63ed1a4b85b2.png)
+
 #### CSS
 - No errors were found when passing through the official
-![image](https://user-images.githubusercontent.com/102615645/171067434-86f7e601-6d1c-4b91-b2b4-5b68f04925b8.png) 
+[W3C validator]
+![image](https://user-images.githubusercontent.com/102615645/171068362-3ce9172e-8c71-4b1d-844c-58510bd235a3.png)
+
+#### Accessibility Testing
+- No errors were found when passing through the official
+[Web Accessibility Evaluation Tool]
+![image](https://user-images.githubusercontent.com/102615645/171069293-6baba3c1-5649-4d54-9e29-258764cd5bea.png)
 
 #### Lighthouse Testing 
+- The site has also been through Microsoft Edge Dev Tools and Lighthouse Testings which tests for:
+  - Performance - How the page performs while loading.
+  - Accessibility - How accessible the site is for users.
+  - Best Practices - How much the site conforms to industry best practices. 
+  - Search Engine Optimisation (SEO) - Is the site optimised for search engine result rankings.  
+![image](https://user-images.githubusercontent.com/102615645/171070797-32841b05-455e-481a-9310-f28480b6ea6a.png)
 
+I have noticed that performace is marked down by 21 points which does mean that the performance of the website is not at it's best. I have noticed that the pictures that have been used for the header. In the future I will use the skills to ensure that the performance is increased to ensure the best user experience. 
+
+Additionally, I have also noticed that SEO is marked down by 4 points 
 #### Manual Testing 
+- Manual testing has also taken place where a check list was drawn up to ensure everything was working effectively on all screen sizes to ensure all users have a good experience on the website. 
+  - Navigation Menu
+    - Ensure it was working on all screen sizes to make sure all users were able to navigate around the site with ease. 
+    - Ensure it was in the best place for all screen sizes to ensure the user could find it with ease. 
+  - Header 
+   - Ensure the logo situated within the header aligned with the site as it moved.
+   - Ensure the header stays at the top of the page when scrolling. 
+   - Ensure the pictures under the header are clearly seen. 
+   - Ensure the pictures align with eachother.
+  - About page 
+   - Ensure the paragraphs could fit the screen as the screen got smaller. 
+   - Ensure the text was clearly seen and the heading and paragraph texts were the same in each section. 
+  - Habitats page
+   - Ensure the border fit around all the text within the box. 
+   - Ensure the videos did not start playing as soon as the page was accessed. 
+   - Ensure the videos played on the screen. 
+   - Ensure the videos matched with the correct paragraphs. 
+  - Contact Us page 
+   - Ensure that all elements are set to working.
+   - Ensure that a valid email address is needed in the email box. 
+   - Ensure that the picture could still be seen on screens smaller than 800px. 
+   - Ensure the button hover class worked. 
+   - Ensure the form posted the information and the button worked. 
+  - Footer 
+   - Ensure the icons used could be seen and opened in a new tab. And the heading for the footer was easily seen to make sure the users knew to get more information and get in touch over social media. 
+   - Ensure the footer stays at the bottom of the page at all times. 
 ### Unfixed Bugs
+When Protect Our Habitats went through Microsoft Edge Dev Tools an error appeared which states that the origin trial controlled feature was not enabled.
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+![image](https://user-images.githubusercontent.com/102615645/171071168-0705dcbd-a977-40b3-a834-3b24381b9ad6.png)
 
+### Fixed Bugs
+- When the website was validated through the html validator 1 error occured where there was an open tag with no closing, this error was quickly mended as the tag was not needed in the code. 
+- One warning also appeared highlighting that one heading of a section was a h1 and the other heading was a h2, this was quickly mended by ensuring both headings where the same size using h2. 
+- When the website intially was deployed the nav bar could not be pressed as the height of the logo was covering it, this meant that for users that are using screen sizes 400px and down they would not have accessed the other pages on the site. 
 ## Deployment
 
 To get the site live, the steps were:
@@ -105,5 +154,6 @@ You can access the live site here - https://rebecca-sarah.github.io/Learn-about-
 - The images for the website were taken from [Pexels](https://pexels.com)
 - The video about the African Savanna was taken from [Catherine Brookes, Life on the African Savanna](https://www.youtube.com)
 - The video about the Arctic was taken from [National Geographic, Arctic/Exploring Oceans](https://www.youtube.com) 
+
 ## Acknowledgments
 This website has been completed as part of the Full Stack Software Developer Diploma Project with COde Institute. Creating this website has taught me a lot and grown my confidence massively. The people I would like to thank for their support throughout this project is my mentor, Jack Wachira, my educator, Luke Walters, the community on Slack and Code Institute. 
