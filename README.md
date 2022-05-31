@@ -93,7 +93,8 @@ There are many different features used throughout Protect Our Habitats which hel
 
 I have noticed that performace is marked down by 21 points which does mean that the performance of the website is not at it's best. I have noticed that the pictures that have been used for the header. In the future I will use the skills to ensure that the performance is increased to ensure the best user experience. 
 
-Additionally, I have also noticed that SEO is marked down by 4 points 
+Additionally, I have also noticed that SEO is marked down by 4 points due to some items over-lapping in the header when the screen size is max width 400px. However, the header height would look to big if it was any bigger, the logo is a good font-size to ensure it catches the users eye and the navigation menu sit nicely directly under the logo, only over-lapping slightly. 
+
 #### Manual Testing 
 - Manual testing has also taken place where a check list was drawn up to ensure everything was working effectively on all screen sizes to ensure all users have a good experience on the website. 
   - Navigation Menu
